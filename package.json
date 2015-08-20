@@ -36,6 +36,7 @@
     "react": "0.13.2",
     "react-a11y": "^0.2.6",
     "react-async": "^2.1.0",
+    "react-d3-components": "^0.1.0",
     "react-router-component": "^0.25.1",
     "react-tools": "0.13.2",
     "reflux": "^0.2.8"

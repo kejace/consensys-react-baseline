@@ -3,12 +3,13 @@ import React   from 'react/addons';
 import Reflux  from 'reflux';
 import Request from 'axios';
 import _       from 'lodash';
+import ReactD3 from 'react-d3-components';
 
 export default Reflux.createStore({
 
-  data: {
-      testData: '',
-      moreTestData: ''
+  data : {
+    label: 'somethingA',
+    values: [{x: 'SomethingA', y: 10}, {x: 'SomethingB', y: 4}, {x: 'SomethingC', y: 3}]
   },
 
   init() {

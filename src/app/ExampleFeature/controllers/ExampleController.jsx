@@ -2,6 +2,7 @@
 import React  from 'react/addons';
 import Router from 'react-router-component';
 import Reflux from 'reflux';
+import ReactD3 from 'react-d3-components';
 
 // Store
 import ExampleRefluxStore from '../stores/ExampleRefluxStore.jsx';

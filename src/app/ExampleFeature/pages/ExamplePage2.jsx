@@ -17,8 +17,6 @@ export default React.createClass({
         <main>
           <h2>THIS IS PAGE 2</h2>
           <button onClick={this.uiMethod}>Button specific to page 2</button>
-          <div>testData: {this.props.storeData.testData}</div>
-          <div>moreTestData: {this.props.storeData.moreTestData}</div>
         </main>
       </div>
     );
